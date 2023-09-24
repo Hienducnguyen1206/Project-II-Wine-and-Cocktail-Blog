@@ -1,0 +1,176 @@
+/* Reset some default styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.custom-post-container {
+  padding: 20px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+
+.header {
+  text-align: center;
+}
+
+.image {
+  text-align: center; 
+  margin-top: 20px;
+}
+
+.image img {
+  max-width: 100%; 
+  height: auto; 
+
+ 
+  width: 100%;
+  max-height: 65%;
+  object-fit: cover;
+
+  max-height:400px;
+  max-width: 800px;
+}
+
+
+
+
+
+.body span {
+  display: block; 
+  margin-top: 10px;
+}
+
+
+.text-left {
+  text-align: left; 
+  margin-top: 20px;
+}
+
+
+.comment {
+  
+}
+
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-header {
+  font-weight: bold;
+  background-color: #ddd;
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+}
+
+.go-back {
+  position: fixed;
+  bottom: 40%;
+  left: 10%;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  width: 120px;
+  height: 60px;
+  background: #83ddeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  z-index: 9999;
+}
+
+.go-back:hover {
+  background: #6ec1e4;
+}
+
+
+@media (max-width: 768px) {
+  .go-back {
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
+
+.comment-content {
+  padding: 10px;
+  text-align: left;
+}
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.page-item.active {
+  
+  color: white;
+  border: none;
+}
+
+.rating{
+  width:fit-content
+}
+
+.ratingbutton{
+  width:fit-content;
+}
+
+.comment-submit{
+  width:fit-content;
+}
+
+.comment{
+  display: flex;
+}
+.user-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.comment-top{
+  display: flex;
+}
+
+.userlaber{
+  
+}
+
+.commentbutton{
+  text-align: center;
+}
+.comment-header{
+  text-align: center;
+}

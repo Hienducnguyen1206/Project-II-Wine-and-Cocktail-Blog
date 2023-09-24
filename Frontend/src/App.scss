@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+
+#App{
+    
+    width: 100%;
+    margin: 0;
+
+}
+
+#App {
+    background: #f0f0f0; 
+    background-size: cover;
+    background-position: center;
+  }
+
+.app-container{
+    min-height: calc(100vh - 100px);
+}
+
+.body {
+    padding-top: 150px;
+  }
+ 

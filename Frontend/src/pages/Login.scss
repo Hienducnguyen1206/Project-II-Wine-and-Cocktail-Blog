@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-right {
+    border: 2px solid #83ddeb;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 8px gray;
+    padding: 20px;
+    
+    max-width: 400px;
+    
+    width: 100%;
+    margin-bottom: 350px !important;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 10px;
+   
+}
+
+
+

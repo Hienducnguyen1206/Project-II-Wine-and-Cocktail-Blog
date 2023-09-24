@@ -1,0 +1,46 @@
+/* Footer.scss */
+
+.footer {
+  background-color: #83ddeb;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 18px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #fff; /* Sửa lại màu chữ thành trắng */
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Media query cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .footer-content {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons a {
+    margin: 5px 0;
+  }
+}
